@@ -1,11 +1,11 @@
 import java.util.ArrayList;
 
 public class FindPrimes {
-	
+	//art
 	public static void main(String[] args) {
 		
 		System.out.println(findPrimes(1 , 100));
-		
+	
 	}
 	
 	public static ArrayList<Integer> findPrimes(int a, int b){
@@ -16,8 +16,8 @@ public class FindPrimes {
 			
 			boolean prime = true;
 			int i = 2;
-			
-			while(i <= b/2) {
+			double c = Math.sqrt(b);
+			while(i <= c) {
 				if(n % i ==0) {
 					prime = false;
 					break;
